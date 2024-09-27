@@ -23,4 +23,4 @@ valores_simulacoes = [100, 200, 500, 1000, 2000, 5000, 10000, 20000, 50000, 1000
 
 for n in valores_simulacoes:
     prob = probabilidade(n)
-    print(f'n = {n} | Probabilidade estimada de soma igual a 21: {prob*100:2f}%')
+    print(f'n = {n} | Probabilidade estimada de soma igual a 21: {prob*100:.2f}%')

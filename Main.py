@@ -19,6 +19,7 @@ PASSO 1: Gerar dados
 '''
 inicio = time.time()
 def cria_baralho(): #CRIA O BARALHO COM 52 CARTAS
+    #A = 1, K | J | Q = 10
     return ['A',2,3,4,5,6,7,8,9,10,'J','K','Q']*4 #CADA UM DOS 4 NAIPES TEM 13 CARTAS
     
 def retirar_cartas(baralho): #RETIRA 3 CARTAS ALEATÓRIAS DO BARALHO
@@ -29,6 +30,7 @@ PASSO 2: Testar dados
 '''
 def soma(cartas): #SOMA AS CARTAS 3 CARTAS OBTIDAS
     soma_cartas = 0
+    #A = 1, K | J | Q = 10
     for carta in cartas:
         if carta == 'A':
             valor = 1

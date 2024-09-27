@@ -1,3 +1,11 @@
+'''
+Aqui, se encontram todas as combinações possíveis de três cartas que resultam em uma soma de 21.
+Em cada caso, calculamos todas as permutações possíveis. 
+Por exemplo, no caso 1.: há 16 maneiras(4x4) de escolher a carta 10, 4(4x1) maneiras de escolher a carta 9 e 4(4x1) maneiras de escolher a carta 2. 
+Resultando em 256 combinações diferentes.
+Ao final, realizamos o somatório e dividimos pelo total de combinações possíveis de três cartas.
+'''
+
 1. 10+9+2 = 16x4x4=256
 2. 10+8+3 = 16x4x4=256
 3. 10+7+4 = 16x4x4=256
@@ -13,8 +21,12 @@
 
 Soma = (256*4) + (24*3) + (64*3) + 4 + 480
 Soma = 1772
-
+'''
+Quantas combinações possíveis de três cartas?
+Usamos a fórmula de combinações: C(52,3) = 22.100
+'''
 1772/22.100 = 0.080
-
 Probabilidade = 8%
+
+A partir desses cálculos, podemos concluir que se retirarmos 3 cartas aleatoriamente de um baralho, há cerca de 8% de chance de que a soma das cartas seja exatamente 21.
 
