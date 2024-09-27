@@ -88,8 +88,7 @@ fim= time.time()
 qtd_jogadas = 1000
 simulacoes = 1000
 probabilidade = simulacao_completa(qtd_jogadas, simulacoes)
-
-print(f"{probabilidade:.4f}")
+print(f"Probabilidade: {probabilidade:.4f} -> {probabilidade*100:.1f}%")
 print(f'Tempo de execução: {inicio-fim}')
 
 
